@@ -1,0 +1,17 @@
+main: me.Tiernanator.Custom_Spawners.Main
+version: 1.0
+name: Custom_Spawners
+description: Well... Custom Spawners!! 
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [Utilities]
+prefix: Spawners
+softdepend: []
+loadbefore: []
+commands:
+    spawner:
+        description: Turn the block you are looking at into a custom spawner.
+    skull:
+        description: Get a player head of the specified player.
