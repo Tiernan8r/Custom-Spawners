@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import me.Tiernanator.Custom_Spawners.Commands.Skulls;
 import me.Tiernanator.Custom_Spawners.Commands.Spawner;
 
-public class Main extends JavaPlugin {
+public class CustomSpawnersMain extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {

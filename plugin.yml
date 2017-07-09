@@ -1,4 +1,4 @@
-main: me.Tiernanator.Custom_Spawners.Main
+main: me.Tiernanator.Custom_Spawners.CustomSpawnersMain
 version: 1.0
 name: Custom_Spawners
 description: Well... Custom Spawners!! 

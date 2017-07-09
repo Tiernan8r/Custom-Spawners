@@ -13,12 +13,12 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 
 import me.Tiernanator.Colours.Colour;
-import me.Tiernanator.Custom_Spawners.Main;
+import me.Tiernanator.Custom_Spawners.CustomSpawnersMain;
 
 public class Spawner implements CommandExecutor {
 
 	@SuppressWarnings("unused")
-	private static Main plugin;
+	private static CustomSpawnersMain plugin;
 
 	private ChatColor warning = Colour.WARNING.getColour();
 	private ChatColor informative = Colour.INFORMATIVE.getColour();
@@ -26,7 +26,7 @@ public class Spawner implements CommandExecutor {
 	private ChatColor bad = Colour.BAD.getColour();
 	private ChatColor highlight = Colour.HIGHLIGHT.getColour();
 
-	public Spawner(Main main) {
+	public Spawner(CustomSpawnersMain main) {
 		plugin = main;
 	}
 
